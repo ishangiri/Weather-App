@@ -1,0 +1,88 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: hsl(0, 0%, 95%);
+}
+
+
+.Form{
+    margin: 20px;
+}
+
+.input{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    width: 300px;
+}
+
+button[type = "submit"]{
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: hsla(81, 64%, 47%, 0.562);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsla(81, 100%, 49%, 0.562);
+}
+
+.card{
+    background: linear-gradient(180deg, hsl(171, 96%, 72%),  hsl(48, 93%, 38%));
+    padding: 50px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+
+}
+
+.cityDisplay, .weatherDegree{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, o.75);
+    margin-bottom: 25px;
+
+}
+
+.weatherCondition{
+    font-style: oblique;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.weatherDesc{
+    font-style: italic;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.weatherEmoji{
+    font-size: 7rem;
+    margin-bottom: 2px;
+}
+
+.errorDisplay{
+    font-weight: bold;
+    font-size: 2rem;
+    font-style: oblique;
+}
